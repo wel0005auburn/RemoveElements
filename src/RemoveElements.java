@@ -14,7 +14,7 @@ public class RemoveElements {
                 arr[index] = arr[i];
                 index++;
             }
-            System.err.println(Arrays.toString(arr) + "\n");
+
         }
         // Create a copy of arr[]
         return Arrays.copyOf(arr, index);
